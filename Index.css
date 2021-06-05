@@ -1,0 +1,131 @@
+
+/*Background-Image styling*/
+body{
+    background-color: black;
+    font-family: 'Segoe UI',  sans-serif;;
+}
+
+/*Main heading styling*/
+#title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight:500;
+    padding-top: 3% ;
+}
+/*Paragraph styling*/
+#description{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+/*Form styling*/
+#survey-form{
+    margin: 5% 22% 5% 22%;
+    background:rgba(128, 128, 128, 0.356);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+/*Form label styling*/
+label{
+    display: inline-block;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 0px 10px 0px;
+    
+}
+
+/*Form input type and dropdown styling*/
+input,#dropdown {
+    background:rgba(128, 128, 128, 0.356);
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Form DropDown options styling*/
+option{
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 12px 20px;
+
+}
+
+/*Input type placeholder styling*/
+::placeholder{
+    color: white;
+}
+
+/*Radio Button styling*/
+input[type="radio"] {
+  display: inline-block;
+  width: 1rem;
+  height:1rem;
+  border-radius: 50%;
+  margin-top: 10px;
+  }
+
+  /*Radio Button Words styling*/
+  span{
+      color: white;
+      font-size: 18px;
+  }
+
+  /*CheckBox apply section styling*/
+  #apply{
+      color:white;
+      font-size: 15px;
+      opacity: 0.7;
+      padding-left: 8px;
+  }
+
+  /* Age(Optional) section styling*/
+  #optional{
+    color:white;
+    font-size: 15px;
+    opacity: 0.7;
+    padding-left: 8px;
+  }
+
+/*Checkbox styling*/
+  input[type=checkbox]{
+    display: inline-block;
+    width: 1rem;
+    height:1rem;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+
+  /*textarea c styling*/
+ textarea::placeholder{
+     color:gray;
+     font-size: 16px;
+     padding:10px 0px 0px 10px;
+     font-family: sans-serif;
+ }
+
+ /*button styling*/
+ #submit{
+     background-color:black;
+     color: white;
+     width: 102%;
+     height: auto;
+     margin-top: 10px;
+     padding:10px;
+     border-radius: 3px;
+     font-size: 16px;
+     cursor: pointer;
+ }
+  
+
